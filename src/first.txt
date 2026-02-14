@@ -1,0 +1,40 @@
+let name ="Adi bhai";
+let age=21;
+age =22;//reassigned one position in memory so we can use let
+let price=199.99;
+x=null;
+y=undefined;
+isFollow=true;
+console.log(name);
+const pi=3.14;//constant variable
+console.log(pi);
+{
+    let a=10;
+    const b=20;
+    console.log(a);
+    console.log(b);//can be used here as a single ghar samjho jo andar hi rahega is block ke bahar nahi
+}
+const student={
+    name:"Aditya",
+    age:21,
+    isStudying:true,
+    cgpa:9.1,
+};
+console.log(student.name);
+student.name="Adi bhai";//modifying property of object even if it is const
+student["age"]= student["age"]+1;//modifying property of object even if it is const
+const product={
+    title:"iPhone 13",
+    rating:4.5,
+    offer:5,
+    price:270
+};
+console.log(product);
+const profile={
+    firstName:"Aditya",
+    lastName:"Bhati",
+    isFolow:true,//boolean property
+    age:21,//number property
+    details:"isDeveloper"//string property
+};
+console.log(profile);
